@@ -7,14 +7,14 @@
 ```bash
 npm install
 npm run build:babel
-node dist/frutas.js
+node dist/fruta.js
 
 npm run build:ts
 node dist-ts/main.js
 ```
 
 ### Arquivos de entrada
-- `src/frutas.js` — Babel (ES6+/ES202x → ES5)
+- `src/fruta.js` — Babel (ES6+/ES202x → ES5)
 - `ts/main.ts` — TypeScript → JavaScript
 
 ### Onde ver os resultados
