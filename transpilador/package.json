@@ -1,0 +1,19 @@
+{
+  "name": "transpilador-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:babel": "babel src --out-dir dist",
+    "build:ts": "tsc ts/main.ts --outDir dist-ts --target ES5",
+    "build:sass": "sass styles/main.scss styles/main.css",
+    "build:all": "npm run build:babel && npm run build:ts && npm run build:sass"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "typescript": "^5.0.0",
+    "sass": "^1.0.0"
+  }
+}
