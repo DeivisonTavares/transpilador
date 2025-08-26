@@ -1,5 +1,3 @@
-# Demo de Transpiladores (Babel, TypeScript, Sass)
-
 ## Requisitos
 - Node.js instalado
 
